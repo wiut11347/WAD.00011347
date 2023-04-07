@@ -20,10 +20,11 @@ export class HeaderComponent implements OnInit {
   }
 
   onSaveData() {
-    // this.bikeService.storeBikes();
+    // this.bikeService.addBike();
   }
 
   onFetchData() {
-    // this.bikeService.fetchBikes().subscribe();
+    this.bikeService.fetchBikes();
+    console.log('Fetched successfully');
   }
 }

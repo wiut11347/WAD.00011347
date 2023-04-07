@@ -1,16 +1,17 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
-import { HeaderComponent } from './header/header.component';
-import { BikesComponent } from './bikes/bikes.component';
-import { BikeListComponent } from './bikes/bike-list/bike-list.component';
+import { BikeCategoryComponent } from './bike-category/bike-category.component';
 import { BikeDetailsComponent } from './bikes/bike-details/bike-details.component';
 import { BikeEditComponent } from './bikes/bike-edit/bike-edit.component';
-import { BikeCategoryComponent } from './bike-category/bike-category.component';
-import { BikeService } from './bike.service';
 import { BikeItemComponent } from './bikes/bike-list/bike-item/bike-item.component';
+import { BikeListComponent } from './bikes/bike-list/bike-list.component';
+import { BikesComponent } from './bikes/bikes.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +27,10 @@ import { BikeItemComponent } from './bikes/bike-list/bike-item/bike-item.compone
   imports: [
     BrowserModule,
     HttpClientModule,
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
-  providers: [BikeService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

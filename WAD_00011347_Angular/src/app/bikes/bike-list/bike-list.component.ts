@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { BikeService } from 'app/bike.service';
 import { Subscription } from 'rxjs';
-import { BikeService } from 'src/app/bike.service';
 import { Bike } from '../bike.model';
 
 @Component({
@@ -10,7 +10,7 @@ import { Bike } from '../bike.model';
   styleUrls: ['./bike-list.component.css'],
 })
 export class BikeListComponent implements OnInit, OnDestroy {
-  bikes!: Bike[];
+  bikes: Bike[];
   subscription: Subscription;
   constructor(
     private bikeService: BikeService,
@@ -19,8 +19,11 @@ export class BikeListComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
-    const a = this.bikeService.fetchBikes();
-    console.log(a);
+    this.bikeService.fetchBikes().subscribe(response=>{
+      this.bikes = response as Bike[];
+    });
+    // console.log(a);
+    // console.log('hello');
   }
   onNewBike() {
     this.router.navigate(['new'], { relativeTo: this.route });
