@@ -86,3 +86,47 @@ C:\Users\Odiljon\Desktop\WIUT\5BIS_Sem2\WAD_00011347\WAD_00011347API\WAD_0001134
 C:\Users\Odiljon\Desktop\WIUT\5BIS_Sem2\WAD_00011347\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.dll
 C:\Users\Odiljon\Desktop\WIUT\5BIS_Sem2\WAD_00011347\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.pdb
 C:\Users\Odiljon\Desktop\WIUT\5BIS_Sem2\WAD_00011347\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.genruntimeconfig.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\WAD_00011347.exe
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\WAD_00011347.deps.json
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\WAD_00011347.runtimeconfig.json
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\WAD_00011347.runtimeconfig.dev.json
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\WAD_00011347.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\WAD_00011347.pdb
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.csproj.AssemblyReference.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.GeneratedMSBuildEditorConfig.editorconfig
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.AssemblyInfoInputs.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.AssemblyInfo.cs
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.csproj.CoreCompileInputs.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.MvcApplicationPartsAssemblyInfo.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\staticwebassets\WAD_00011347.StaticWebAssets.Manifest.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\staticwebassets\WAD_00011347.StaticWebAssets.Pack.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.WAD_00011347.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.WAD_00011347.props
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.WAD_00011347.props
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.WAD_00011347.props
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.RazorTargetAssemblyInfo.cache
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.csproj.CopyComplete
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.dll
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.pdb
+D:\Games\MyFolder\Новая папка\WAD_00011347API\WAD_00011347\obj\Debug\netcoreapp3.1\WAD_00011347.genruntimeconfig.cache

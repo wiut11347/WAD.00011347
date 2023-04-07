@@ -9,8 +9,8 @@ import { Bike } from '../../bike.model';
 export class BikeItemComponent implements OnInit {
   @Input() bike: Bike;
   @Input() index:number;
-  
-  ngOnInit(){
+
+  ngOnInit() {
   }
 
 }

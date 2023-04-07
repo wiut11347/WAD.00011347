@@ -12,6 +12,10 @@ import { BikeItemComponent } from './bikes/bike-list/bike-item/bike-item.compone
 import { BikeListComponent } from './bikes/bike-list/bike-list.component';
 import { BikesComponent } from './bikes/bikes.component';
 import { HeaderComponent } from './header/header.component';
+import { BikeCategoryListComponent } from './bike-category/bike-category-list/bike-category-list.component';
+import { BikeCategoryItemComponent } from './bike-category/bike-category-list/bike-category-item/bike-category-item.component';
+import { BikeCategoryDetailsComponent } from './bike-category/bike-category-details/bike-category-details.component';
+import { BikeCategoryEditComponent } from './bike-category/bike-category-edit/bike-category-edit.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { HeaderComponent } from './header/header.component';
     BikeEditComponent,
     BikeCategoryComponent,
     BikeItemComponent,
+    BikeCategoryListComponent,
+    BikeCategoryDetailsComponent,
+    BikeCategoryEditComponent,
+    BikeCategoryItemComponent,
   ],
   imports: [
     BrowserModule,

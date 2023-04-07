@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Odiljon\\Desktop\\WIUT\\5BIS_Sem2\\WAD_00011347\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj": {}
+    "D:\\Games\\MyFolder\\Новая папка\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Odiljon\\Desktop\\WIUT\\5BIS_Sem2\\WAD_00011347\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj": {
+    "D:\\Games\\MyFolder\\Новая папка\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Odiljon\\Desktop\\WIUT\\5BIS_Sem2\\WAD_00011347\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj",
+        "projectUniqueName": "D:\\Games\\MyFolder\\Новая папка\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj",
         "projectName": "WAD_00011347",
-        "projectPath": "C:\\Users\\Odiljon\\Desktop\\WIUT\\5BIS_Sem2\\WAD_00011347\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj",
-        "packagesPath": "C:\\Users\\Odiljon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Odiljon\\Desktop\\WIUT\\5BIS_Sem2\\WAD_00011347\\WAD_00011347API\\WAD_00011347\\obj\\",
+        "projectPath": "D:\\Games\\MyFolder\\Новая папка\\WAD_00011347API\\WAD_00011347\\WAD_00011347.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Games\\MyFolder\\Новая папка\\WAD_00011347API\\WAD_00011347\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Odiljon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

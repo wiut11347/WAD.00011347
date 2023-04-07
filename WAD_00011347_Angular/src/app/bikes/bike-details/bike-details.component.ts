@@ -9,8 +9,9 @@ import { Bike } from '../bike.model';
   styleUrls: ['./bike-details.component.css'],
 })
 export class BikeDetailsComponent implements OnInit {
-  bike: Bike;
+  bike!: Bike;
   id: number;
+  loading = false;
 
   constructor(
     private bikeService: BikeService,
@@ -19,9 +20,21 @@ export class BikeDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.loading = true;
     this.route.params.subscribe((params: Params) => {
       this.id = +params['id'];
-      this.bike = this.bikeService.getBikes(this.id);
+      this.bikeService.getBike(this.id).subscribe(bike => {
+        this.bike = bike as Bike;
+        localStorage.setItem('bike', JSON.stringify(this.bike));
+        this.loading = false;
+      });
+    });
+  }
+
+  deleteBike(id: number) {
+    this.bikeService.deleteBike(id).subscribe(response => {
+      localStorage.removeItem('bike');
+      this.router.navigate(['/']);
     });
   }
 }

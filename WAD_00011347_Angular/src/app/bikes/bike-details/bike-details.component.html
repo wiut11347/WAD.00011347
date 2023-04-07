@@ -1,5 +1,11 @@
-<div class="row">
+<p *ngIf="loading">Loading</p>
+<div *ngIf="!loading" class="row">
+  <p>{{ bike.name }}</p>
+  <p>${{ bike.price }}</p>
+  <p>{{ bike.description }}</p>
   <div class="col-xs-1">
-    <img [src]="bike.imagePath" alt="">
+    <img [src]="bike.imagePath" alt="" />
   </div>
+  <button [routerLink]="['/new']">Edit</button>
+  <button (click)="deleteBike(bike.id)">Delete</button>
 </div>

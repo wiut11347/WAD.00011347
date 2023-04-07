@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" (click)="onNewBikeCategory()">New Bike Category</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <app-bike-category-item
+      *ngFor="let catEl of categories; let i = index"
+      [category]="catEl"
+      [index]="i">
+    </app-bike-category-item>
+  </div>
+</div>

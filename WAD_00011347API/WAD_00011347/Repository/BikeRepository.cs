@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
 using WAD_00011347.Context;
 using WAD_00011347.Models;
@@ -21,12 +22,12 @@ namespace WAD_00011347.Repository
         public Bike GetBikeById(int BikeId)
         {
             var bike = _dbContext.Bikes.Find(BikeId);
+            _dbContext.Entry(bike).Reference(g => g.Category).Load();
             return bike;
         }
         public IEnumerable<Bike> GetBikes()
         {
-            return _dbContext.Bikes.ToList();
-
+            return _dbContext.Bikes.Include(g => g.Category).ToList();
         }
         public void InsertBike(Bike Bike)
         {
@@ -37,8 +38,7 @@ namespace WAD_00011347.Repository
         }
         public void UpdateBike(Bike Bike)
         {
-            _dbContext.Entry(Bike).State =
-           Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _dbContext.Entry(Bike).State = EntityState.Modified;
             Save();
         }
         public void Save()

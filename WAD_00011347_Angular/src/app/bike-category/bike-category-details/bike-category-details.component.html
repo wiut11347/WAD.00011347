@@ -1,0 +1,8 @@
+<p *ngIf="loading">Loading</p>
+<div *ngIf="!loading" class="row">
+  <p>{{ category.name }}</p>
+  <p>Type: {{ category.electric ? 'electric' : 'ordinary' }}</p>
+  <button [routerLink]="['/newcategory']">Edit</button>
+  <button (click)="deleteBike(category.id)">Delete</button>
+</div>
+

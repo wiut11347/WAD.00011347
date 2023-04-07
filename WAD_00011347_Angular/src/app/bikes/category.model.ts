@@ -1,3 +1,3 @@
 export class Category {
-  constructor(public name:string, public electric:boolean){}
+  constructor(public id: number, public name:string, public electric:boolean){}
 }
